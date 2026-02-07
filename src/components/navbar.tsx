@@ -5,9 +5,9 @@ export function Navbar(){
     return(
         <nav className="container mx-auto max-w-3xl px-4 sticky top-0 z-50 rounded-md py-4 backdrop-blur-sm">
             <div className="flex items-center justify-between px-6">
-                <div className="flex items-baseline gap-4">
+                <div className="flex items-end gap-4">
                     <a href="">
-                        <Image src={logo} alt="logo" width={48} className="rounded-md"/>
+                        <Image src={logo} alt="logo" width={48} className="rounded-md bg-blue-300"/>
                     </a>
                 
                     <div className="flex items-baseline justify-center gap-4">

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "company": "Octaloop",
+    "role": "Frontend Developer",
+    "logo": "/images/octaloop.png",
+    "status": "Working",
+    "period": "September 2025 - Present",
+    "location": "New Delhi, India (On-Site)",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "React", "Figma", "Cloudflare", "Github"],
+    "description": [
+      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
+      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
+      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
+      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+    ]
+  },
+
+   {
+    "id": 2,
+    "company": "SaffronTech",
+    "role": "Jr. Quality Analyst",
+    "logo": "/images/saffrontech.webp",
+    "status": "",
+    "period": "February 2024 - March 2025",
+    "location": "Ghitorini, India (On-Site)",
+    "technologies": ["Manual Testing", "Figma"],
+    "description": [
+      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
+      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
+      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
+      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+    ]
+  },
+
+  {
+    "id": 3,
+    "company": "FULL Creative",
+    "role": "Test Engineer Intern",
+    "logo": "/images/fullcreative.png",
+    "status": "",
+    "period": "March 2023 - April 2023",
+    "location": "Chennai, India (Remote)",
+    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
+    "description": [
+      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
+      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
+      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
+      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+    ]
+  },
+
+  {
+    "id": 4,
+    "company": "Inlingua",
+    "role": "Student",
+    "logo": "/images/inlingua.png",
+    "status": "",
+    "period": "October 2022 - March 2023",
+    "location": "New Delhi, India (On-Site)",
+    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
+    "description": [
+      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
+      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
+      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
+      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+    ]
+  },
+
+  {
+    "id": 5,
+    "company": "AAPNA Infotech",
+    "role": "Associate Consultant",
+    "logo": "/images/aapnainfotech.png",
+    "status": "",
+    "period": "January 2022 - October 2022",
+    "location": "New Delhi, India (Remote)",
+    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
+    "description": [
+      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
+      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
+      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
+      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+    ]
+  }
+]

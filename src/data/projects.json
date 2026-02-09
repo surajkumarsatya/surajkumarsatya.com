@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "NotesBuddy",
+    "image": "/images/nexl.png",
+    "description": "A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools",
+    "webLink": "https://notesbuddy.com",
+    "githubLink": "https://github.com/yourusername/notesbuddy",
+    "status": "Building",
+    "technologies": ["nextjs", "typescript", "react", "vercel", "mongodb", "tailwind", "shadcn", "mathjax"]
+  },
+  {
+    "id": 2,
+    "title": "Appwrite MCP Server",
+    "image": "/images/kartavya.png",
+    "description": "Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success...",
+    "webLink": "https://mcp.appwrite.io",
+    "githubLink": "https://github.com/yourusername/appwrite-mcp",
+    "status": "All Systems Operational",
+    "technologies": ["typescript", "bun", "vercel", "appwrite"]
+  },
+  {
+    "id": 3,
+    "title": "Appwrite MCP Server",
+    "image": "/images/netflix.png",
+    "description": "Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success...",
+    "webLink": "https://mcp.appwrite.io",
+    "githubLink": "https://github.com/yourusername/appwrite-mcp",
+    "status": "All Systems Operational",
+    "technologies": ["typescript", "bun", "vercel", "appwrite"]
+  },
+  {
+    "id": 4,
+    "title": "Appwrite MCP Server",
+    "image": "/images/applevisionpro.png",
+    "description": "Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success...",
+    "webLink": "https://mcp.appwrite.io",
+    "githubLink": "https://github.com/yourusername/appwrite-mcp",
+    "status": "All Systems Operational",
+    "technologies": ["typescript", "bun", "vercel", "appwrite"]
+  }
+]

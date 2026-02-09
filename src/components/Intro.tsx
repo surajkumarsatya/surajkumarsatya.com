@@ -9,7 +9,7 @@ import {
 
 export function Intro() {
   return (
-    <div className="container mx-auto max-w-3xl px-4 min-h-screen py-16">
+    <div className="container mx-auto max-w-3xl px-4 pt-16">
       <div className="container mx-auto max-w-3xl px-4">
         <div className="">
           <Image

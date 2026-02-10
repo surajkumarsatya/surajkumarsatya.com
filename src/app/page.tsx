@@ -11,7 +11,7 @@ export default function Home() {
       <Intro />
 
       {/* SEO-friendly internal links */}
-      <p className="max-w-3xl mx-auto mt-6 text-base text-neutral-600 dark:text-neutral-400">
+      <p className="max-w-3xl mx-auto mt-6 px-5 md:px-9 text-base text-neutral-600 dark:text-neutral-400">
         You can explore my{" "}
         <Link
           href="/projects"

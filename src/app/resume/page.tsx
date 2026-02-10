@@ -1,6 +1,4 @@
-import Project from "@/components/Project";
 import ResumeDrive from "@/components/ResumeDrive";
-import projectData from '@/data/projects.json'
 
 export default function Resume(){
     return(

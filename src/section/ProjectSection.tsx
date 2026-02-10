@@ -1,4 +1,3 @@
-import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import projectData from '@/data/projects.json'
 import Link from "next/link";

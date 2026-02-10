@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="container mx-auto max-w-3xl px-4 py-16">
       <div className="flex flex-col items-center justify-center">

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-export function Navbar(){
+export default function Navbar(){
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 

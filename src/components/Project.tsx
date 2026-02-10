@@ -1,5 +1,10 @@
-import React from 'react';
 import { Globe, Github, ArrowRight } from 'lucide-react';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 interface ProjectData {
   id: number;
@@ -12,69 +17,80 @@ interface ProjectData {
   technologies: string[];
 }
 
-const Project = ({ projects }: { projects: ProjectData[] }) => {
+const Project = ({ projects, isHomePage = false }: { projects: ProjectData[]; isHomePage?: boolean }) => {
+  const displayedProjects = isHomePage ? projects.slice(0, 4) : projects;
+
   return (
-    <section className="container mx-auto max-w-3xl px-8 mt-0">
+    <section className="container mx-auto max-w-3xl px-4 md:px-8 mt-0">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 mt-8">
-        {projects.map((item) => (
-          <div key={item.id} className="group bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-            {/* Project Image Area */}
-            <div className=" overflow-hidden p-4">
+        {displayedProjects.map((item) => (
+          <div
+            key={item.id}
+            className="group bg-white dark:bg-neutral-900 rounded-3xl border border-gray-100 dark:border-white/10 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+          >
+            <div className="overflow-hidden p-4">
               <img 
                 src={item.image} 
                 alt={item.title} 
-                className="w-full h-full object-contain transform group-hover:scale-[1.02] transition-transform duration-500"
+                className="w-77.5 h-37.5 object-cover transform group-hover:scale-[1.02] transition-transform duration-500"
               />
             </div>
 
-            {/* Content Area */}
             <div className="p-4">
               <div className="flex items-center justify-between gap-4 mb-4">
-                <h3 className="text-xl font-semibold leading-tight group-hover:text-primary hover:cursor-pointer">{item.title}</h3>
-                <div className="flex items-center gap-2 text-gray-400">
-                  <a href={item.webLink} target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
+                <h3 className="text-xl font-semibold leading-tight group-hover:text-primary hover:cursor-pointer text-gray-900 dark:text-white">
+                  {item.title}
+                </h3>
+                <div className="flex items-center gap-2 text-gray-400 dark:text-neutral-400">
+                  <a
+                    href={item.webLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-black dark:hover:text-white transition-colors"
+                  >
                     <Globe size={20} strokeWidth={1.5} />
                   </a>
-                  <a href={item.githubLink} target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
+                  <a
+                    href={item.githubLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-black dark:hover:text-white transition-colors"
+                  >
                     <Github size={20} strokeWidth={1.5} />
                   </a>
                 </div>
               </div>
 
-              <p className="text-gray-500 text-[15px] leading-relaxed mb-4 line-clamp-3">
+              <p className="text-gray-500 dark:text-neutral-400 text-[15px] leading-relaxed mb-4 line-clamp-3">
                 {item.description}
               </p>
 
-              {/* Technologies Row */}
               <div className="mb-4">
-                <p className="text-gray-500 text-sm font-semibold leading-relaxed mb-2 line-clamp-3">Technologies</p>
+                <p className="text-gray-500 dark:text-neutral-400 text-sm font-semibold leading-relaxed mb-2 line-clamp-3">
+                  Technologies
+                </p>
                 <div className="flex flex-wrap gap-3 items-center">
-                  {item.technologies.map((tech) => (
-                    <TechIcon key={tech} name={tech} />
-                  ))}
+                  <TooltipProvider>
+                    {item.technologies.map((tech) => (
+                      <TechIcon key={tech} name={tech} />
+                    ))}
+                  </TooltipProvider>
                 </div>
               </div>
 
-              {/* Footer Row */}
               <div className="flex justify-between items-center pt-2">
                 {
-                    item.status == 'Building' ? 
-                    <div className="flex items-center gap-1 rounded-md px-2 py-1 text-xs border-red-300 bg-red-500/10">
+                  item.status == 'Building' ? 
+                  <div className="flex items-center gap-1 rounded-md px-2 py-1 text-xs border-red-300 dark:border-red-400/40 bg-red-500/10">
                     <span className="size-1.5 rounded-full bg-red-500 animate-pulse"></span>
                     {item.status}
-                    </div>
+                  </div>
                 :
-                    <div className="flex items-center gap-1 rounded-md px-2 py-1 text-xs border-green-300 bg-green-500/10">
+                  <div className="flex items-center gap-1 rounded-md px-2 py-1 text-xs border-green-300 dark:border-green-400/40 bg-green-500/10">
                     <span className="size-1.5 rounded-full bg-green-500 animate-pulse"></span>
                     {item.status}
-                    </div>
+                  </div>
                 }
-                <a 
-                  href={item.webLink} 
-                  className="text-gray-500 flex items-center gap-2 text-sm hover:underline underline-offset-4 hover:text-primary transition-colors duration-200 ease-[ease]"
-                >
-                  View Details <ArrowRight size={16} />
-                </a>
               </div>
             </div>
           </div>
@@ -84,27 +100,30 @@ const Project = ({ projects }: { projects: ProjectData[] }) => {
   );
 };
 
-// Simplified TechIcon helper to match your reference image icons
 const TechIcon = ({ name }: { name: string }) => {
-  // Map names to specific SVG paths or simple image icons
   const iconMap: Record<string, string> = {
     nextjs: "https://cdn.simpleicons.org/nextdotjs/000000",
     typescript: "https://cdn.simpleicons.org/typescript/007ACC",
     react: "https://cdn.simpleicons.org/react/61DAFB",
     vercel: "https://cdn.simpleicons.org/vercel/000000",
-    mongodb: "https://cdn.simpleicons.org/mongodb/47A248",
     tailwind: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
-    bun: "https://cdn.simpleicons.org/bun/000000",
-    appwrite: "https://cdn.simpleicons.org/appwrite/FD366E",
+    shadcnui: "https://cdn.simpleicons.org/shadcnui/000000",
+    emailjs: "https://cdn.simpleicons.org/minutemailer/FFBE00",
   };
 
   return (
-    <img 
-      src={iconMap[name.toLowerCase()] || `https://cdn.simpleicons.org/${name}`} 
-      alt={name} 
-      className="size-5 grayscale hover:grayscale-0 transition-all object-contain"
-      title={name}
-    />
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <img 
+          src={iconMap[name.toLowerCase()] || `https://cdn.simpleicons.org/${name}`}
+          alt={name}
+          className="size-5 object-contain dark:invert"
+        />
+      </TooltipTrigger>
+      <TooltipContent>
+        <p className="text-xs font-semibold">{name}</p>
+      </TooltipContent>
+    </Tooltip>
   );
 };
 

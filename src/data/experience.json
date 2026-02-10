@@ -4,15 +4,19 @@
     "company": "Octaloop",
     "role": "Frontend Developer",
     "logo": "/images/octaloop.png",
+    "website":"https://octaloop.com",
+    "x":"https://x.com/octaloopHQ",
+    "linkedin":"https://in.linkedin.com/company/octaloop",
     "status": "Working",
     "period": "September 2025 - Present",
     "location": "New Delhi, India (On-Site)",
-    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "React", "Figma", "Cloudflare", "Github"],
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "React", "JavaScript", "Figma", "Cloudflare", "Github"],
     "description": [
-      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
-      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
-      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
-      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+      "Spearheaded the transition of the company’s digital presence from legacy WordPress installations to a high-performance modern stack utilizing Next.js and React.",
+      "Architected and successfully deployed two full-scale web applications from scratch, managing the entire lifecycle from initial UI/UX redesign to final production deployment and CI/CD maintenance.",
+      "Improved site load times and SEO rankings by leveraging Next.js server-side rendering (SSR) and static site generation (SSG), replacing inefficient legacy plugins with custom-built components.",
+      "Collaborated closely with designers to translate business requirements into technical specifications, ensuring all redesigns met modern web standards and user experience goals.",
+      "Enhanced user experience and interface design through implementation of consistent components, accessibility standards, and performance optimizations."
     ]
   },
 
@@ -21,15 +25,19 @@
     "company": "SaffronTech",
     "role": "Jr. Quality Analyst",
     "logo": "/images/saffrontech.webp",
+    "website":"https://www.saffrontech.net/",
+    "x":"https://x.com/SaffronTech_",
+    "linkedin":"https://www.linkedin.com/company/saffron-tech-pvt-ltd/",
     "status": "",
     "period": "February 2024 - March 2025",
     "location": "Ghitorini, India (On-Site)",
     "technologies": ["Manual Testing", "Figma"],
     "description": [
-      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
-      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
-      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
-      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+      "Orchestrated the Quality Assurance process for 4 diverse web applications, effectively balancing rigorous testing for 2 internal proprietary tools and 2 high-priority client-facing projects.",
+      "Executed exhaustive compatibility testing across a full spectrum of environments, including macOS/Windows (Chrome, Safari, Edge) and iOS/Android mobile browsers to ensure a seamless experience.",
+      "Acted as the final gatekeeper for product quality, validating all features against strict Business Requirement Documents (BRD) to guarantee 100% alignment with client expectations.",
+      "Performed comprehensive UI/UX audits to identify and resolve edge-case regressions, ensuring the final delivery exceeded industry standards for usability and responsiveness.",
+      "Collaborated closely with the development team to identify, document, and track critical bugs, significantly reducing post-release hotfixes and improving overall codebase stability."
     ]
   },
 
@@ -38,15 +46,18 @@
     "company": "FULL Creative",
     "role": "Test Engineer Intern",
     "logo": "/images/fullcreative.png",
+    "website":"https://full.io/",
+    "x":"",
+    "linkedin":"https://www.linkedin.com/company/full-creative/",
     "status": "",
     "period": "March 2023 - April 2023",
     "location": "Chennai, India (Remote)",
     "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
     "description": [
-      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
-      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
-      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
-      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+      "Contributed to the quality assurance of Setmore, a global scheduling mobile application, during a rigorous 2-month internship.",
+      "Executed comprehensive test suites under senior mentorship to ensure all development tasks met strict production-level quality criteria.",
+      "Orchestrated the creation of detailed Test Scenarios, Test Cases, and comprehensive Bug Tracking Reports using Google Sheets to streamline the feedback loop between QA and Development.",
+      "Performed systematic test execution and bug tracking to identify and resolve critical regressions before release cycles."
     ]
   },
 
@@ -55,15 +66,16 @@
     "company": "Inlingua",
     "role": "Student",
     "logo": "/images/inlingua.png",
+    "website":"https://www.inlinguanewdelhi.com/",
+    "x":"https://x.com/InlinguaDelhi",
+    "linkedin":"https://www.linkedin.com/company/inlingua-new-delhi/",
     "status": "",
     "period": "October 2022 - March 2023",
     "location": "New Delhi, India (On-Site)",
-    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
     "description": [
-      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
-      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
-      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
-      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+      "Completed a 6-month intensive English language and professional communication program to enhance collaborative efficiency in international work environments.",
+      "Participated in advanced verbal and written exercises, focusing on technical terminology, public speaking, and collaborative team dialogue.",
+      "Improved cross-cultural communication skills, enabling more effective interaction with global clients and stakeholders during technical project handovers."
     ]
   },
 
@@ -72,15 +84,18 @@
     "company": "AAPNA Infotech",
     "role": "Associate Consultant",
     "logo": "/images/aapnainfotech.png",
+    "website":"https://aapnainfotech.com/",
+    "x":"https://x.com/AapnaInfotech",
+    "linkedin":"https://www.linkedin.com/company/aapna-infotheek-pvt-ltd/",
     "status": "",
     "period": "January 2022 - October 2022",
     "location": "New Delhi, India (Remote)",
-    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
+    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App", "Java", "Selenium"],
     "description": [
-      "Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.",
-      "Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.",
-      "Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.",
-      "Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations."
+      "Spearheaded the manual testing phase for a proprietary internal web application, ensuring the stability of core business tools.",
+      "Developed highly effective and efficient Test Scenarios and Test Cases designed to maximize coverage and identify edge-case defects.",
+      "Demonstrated technical proficiency in identifying web elements through complex XPath expressions for efficient troubleshooting and UI validation.",
+      "Actively identified and documented functional bugs to ensure the final product aligned perfectly with internal business logic and user flow requirements."
     ]
   }
 ]

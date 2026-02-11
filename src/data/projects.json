@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "India Blockchain Tour",
-    "image": "/images/ibt.png",
+    "image": "/images/ibt.webp",
     "description": "A high-performance event platform architected with Next.js and TypeScript to support India’s premier Web3 conference series. I led the end-to-end development, migrating the event infrastructure from a legacy setup to a modular React-based system. Key features include optimized ticket-purchase flows, real-time speaker schedules, and server-side rendering for superior SEO and lightning-fast load times during high-traffic registration periods.",
     "webLink": "https://indiablockchaintour.com",
     "githubLink": "#",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "title": "Metamorphosis",
-    "image": "/images/metamorphosis.png",
+    "image": "/images/metamorphosis.webp",
     "description": "Designed and developed a sleek, interactive portal for a premium Web3 x AI gala. Built from the ground up using React and Tailwind CSS, this project focuses on fluid animations. I implemented a scalable frontend architecture that allows for rapid content updates while maintaining 99.9% uptime, ensuring a seamless RSVP and information discovery experience for global industry leaders.",
     "webLink": "https://metamorphosisconf.com/",
     "githubLink": "#",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "title": "Nexl",
-    "image": "/images/nexl.png",
+    "image": "/images/nexl.webp",
     "description": "An advanced AI-driven conversational platform engineered to provide intelligent, real-time responses to complex user queries. Built with a modern Next.js and TypeScript foundation, the application leverages state-of-the-art LLM APIs to deliver a chat experience similar to ChatGPT. Currently in its MVP (Minimum Viable Product) phase, I am focused on architecting a scalable streaming response system, implementing secure user authentication, and designing a minimalist, high-performance UI for seamless human-AI interaction.",
     "webLink": "https://nexl.dev",
     "githubLink": "https://github.com/surajkumarsatya/nexl",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "title": "Kartavya",
-    "image": "/images/kartavya.png",
+    "image": "/images/kartavya.webp",
     "description": "Kartavy, a fully functional multi page website built with React and Tailwind CSS. It incorporates robust user authentication using Clerk and handles form submissions through Email.js. The website is designed to be fully responsive.",
     "webLink": "https://kartavvya.vercel.app/",
     "githubLink": "https://github.com/surajkumarsatya/Kartavya",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "title": "Netflix",
-    "image": "/images/netflix.png",
+    "image": "/images/netflix.webp",
     "description": "This project is a Netflix Clone built using React and Tailwind CSS. It leverages the TMDB API to dynamically fetch and display real movie and TV show data. The application is fully responsive, ensuring a seamless user experience across all devices.",
     "webLink": "https://ntflx-project.vercel.app/",
     "githubLink": "https://github.com/surajkumarsatya/Netflix-Clone",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "title": "Grocify",
-    "image": "/images/grocify.png",
+    "image": "/images/grocify.webp",
     "description": "This project is a modern, responsive multi-page e-commerce website named 'Grocify.' It's built with React and styled using Tailwind CSS for a sleek, utility-first design. The application showcases a strong understanding of front-end development.",
     "webLink": "https://grocify-project.vercel.app/",
     "githubLink": "https://github.com/surajkumarsatya/Grocify",

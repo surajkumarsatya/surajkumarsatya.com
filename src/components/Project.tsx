@@ -32,7 +32,7 @@ const Project = ({ projects, isHomePage = false }: { projects: ProjectData[]; is
               <img 
                 src={item.image} 
                 alt={item.title} 
-                className="w-full object-cover transform group-hover:scale-[1.02] transition-transform duration-500"
+                className="w-full object-contain rounded-lg transform group-hover:scale-[1.02] transition-transform duration-500"
               />
             </div>
 

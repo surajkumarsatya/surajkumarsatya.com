@@ -24,8 +24,16 @@ export const metadata = {
     "Frontend Developer specializing in Next.js, React, TypeScript, and building high-performance web applications. I love building products to solve real-world problems. I'm specialized in building websites. Explore my projects, experience, and technical expertise.",
   applicationName: "Suraj",
   openGraph: {
-    siteName: "Suraj",
-  },
+  siteName: "Suraj",
+  images: [
+    {
+      url: "/images/logo.webp",
+      width: 1200,
+      height: 630,
+      alt: "Suraj Kumar Satya – Frontend Developer",
+    },
+  ],
+},
 };
 
 export default function RootLayout({

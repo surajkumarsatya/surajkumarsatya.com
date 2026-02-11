@@ -7,7 +7,7 @@ export default function ResumeDrive() {
       >
         <iframe
           src="https://drive.google.com/file/d/16DGzYJHGG2VBUSYzr3ZzLiDgwzcxbcqP/preview"
-          className="w-full min-h-screen"
+          className="w-full min-h-120 md:min-h-screen"
         ></iframe>
       </div>
     </section>

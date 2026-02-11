@@ -27,13 +27,26 @@ export const metadata = {
   siteName: "Suraj",
   images: [
     {
-      url: "/images/logo.webp",
+      url: "/images/og-image.png",
       width: 1200,
       height: 630,
       alt: "Suraj Kumar Satya – Frontend Developer",
     },
   ],
 },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Suraj Kumar Satya – Frontend Developer',
+    description: "Frontend Developer specializing in Next.js, React, TypeScript, and building high-performance web applications. I love building products to solve real-world problems. I'm specialized in building websites. Explore my projects, experience, and technical expertise.",
+    images: ['/images/og-image.png'],
+  },
+
+  other: {
+    'og:image:secure_url':
+      'https://surajkumarsatya.com/images/og-image.png',
+    'og:image:type': 'image/png',
+  },
 };
 
 export default function RootLayout({

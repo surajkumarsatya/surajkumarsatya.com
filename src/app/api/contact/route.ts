@@ -31,22 +31,22 @@ export async function POST(req: Request) {
     });
 
     /* 2️⃣ Thank-you email to USER */
-    await resend.emails.send({
-      from: "Your Name <onboarding@resend.dev>",
-      to: [email],
-      subject: "Thanks for reaching out!",
-      html: `
-        <p>Hi ${name},</p>
+    // await resend.emails.send({
+    //   from: "Your Name <onboarding@resend.dev>",
+    //   to: [email],
+    //   subject: "Thanks for reaching out!",
+    //   html: `
+    //     <p>Hi ${name},</p>
 
-        <p>Thank you for contacting me! I’ve received your message and will get back to you as soon as possible.</p>
+    //     <p>Thank you for contacting me! I’ve received your message and will get back to you as soon as possible.</p>
 
-        <p><strong>Your message:</strong></p>
-        <blockquote>${message}</blockquote>
+    //     <p><strong>Your message:</strong></p>
+    //     <blockquote>${message}</blockquote>
 
-        <p>Best regards,<br />
-        Your Name</p>
-      `,
-    });
+    //     <p>Best regards,<br />
+    //     Your Name</p>
+    //   `,
+    // });
 
     return NextResponse.json({ success: true });
   } catch (error) {

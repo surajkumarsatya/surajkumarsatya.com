@@ -33,22 +33,144 @@ export async function POST(req: Request) {
     });
 
     /* 2️⃣ Thank-you email to USER */
-    // await resend.emails.send({
-    //   from: "Your Name <onboarding@resend.dev>",
-    //   to: [email],
-    //   subject: "Thanks for reaching out!",
-    //   html: `
-    //     <p>Hi ${name},</p>
+    await resend.emails.send({
+      from: "Suraj Kumar Satya <hello@surajkumarsatya.com>",
+      to: [email],
+      subject: "Thank you for reaching out",
+      html: `
 
-    //     <p>Thank you for contacting me! I’ve received your message and will get back to you as soon as possible.</p>
+      <style>
+        @media only screen and (max-width: 600px) {
+          .share-btn {
+            text-align: center !important;
+          }
+        }
+      </style>
 
-    //     <p><strong>Your message:</strong></p>
-    //     <blockquote>${message}</blockquote>
+      <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #111; margin: 0 auto; padding: 16px;">
+        
+        <p style="margin-bottom: 16px;">Hi ${name},</p>
+        
+        <p>
+          Thank you for connecting through my portfolio website. 
+          I’ve successfully received your message and truly appreciate you taking the time to reach out.
+        </p>
 
-    //     <p>Best regards,<br />
-    //     Your Name</p>
-    //   `,
-    // });
+        <p>
+          I will carefully review your inquiry and get back to you as soon as possible.
+        </p>
+
+        <div style="background-color: #f9fafb; padding: 16px; border-left: 4px solid #7B40FF; margin: 24px 0;">
+          <p style="margin: 0; font-style: italic; color: #444;">
+            ${message}
+          </p>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;" />
+
+        <p>
+          I am currently 
+          <span style="
+            display: inline-block;
+            background: #111;
+            color: #ffffff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 13px;
+          ">
+            Open to Work
+          </span>
+          and actively exploring Frontend Developer opportunities.
+        </p>
+
+        <p>
+          If your team — or someone in your network — is hiring for a frontend role,
+          I would genuinely appreciate a referral or an opportunity to connect.
+        </p>
+
+        <p>
+          You can also reach me directly at 
+          <a href="mailto:surajmail.799@gmail.com" style="color: #7B40FF; text-decoration: none; font-weight: 500;">
+            surajmail.799@gmail.com
+          </a> (my primary inbox).
+        </p>
+
+        <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;" />
+
+        <p style="margin-bottom: 10px;">
+          Know someone hiring? Feel free to share my profile:
+        </p>
+
+        <div style="margin-bottom: 20px;" class="share-btn">
+
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://surajkumarsatya.com"
+          
+            style="
+              display:inline-block;
+              padding:10px 16px;
+              margin: 4px 6px 4px 0px;
+              background:#0A66C2;
+              color:#ffffff;
+              text-decoration:none;
+              border-radius:6px;
+              font-size:14px;
+              font-weight:500;
+            ">
+            Share on LinkedIn
+          </a>
+
+          <a href="https://twitter.com/intent/tweet?url=https://surajkumarsatya.com&text=Check%20out%20Suraj%20Kumar%20Satya%20-%20Frontend%20Developer"
+          
+            style="
+              display:inline-block;
+              padding:10px 16px;
+              margin:4px 6px;
+              background:#111;
+              color:#ffffff;
+              text-decoration:none;
+              border-radius:6px;
+              font-size:14px;
+              font-weight:500;
+            ">
+            Share on X
+          </a>
+
+          <a href="https://wa.me/?text=Check%20out%20Suraj%20Kumar%20Satya%20-%20Frontend%20Developer%20https%3A%2F%2Fsurajkumarsatya.com"
+          
+            style="
+              display:inline-block;
+              padding:10px 16px;
+              margin: 4px 6px 4px 0px;
+              background:#25D366;
+              color:#ffffff;
+              text-decoration:none;
+              border-radius:6px;
+              font-size:14px;
+              font-weight:500;
+            ">
+            Share on WhatsApp
+          </a>
+
+        </div>
+
+
+        <p style="font-size: 13px; color:#666;">
+          Or simply share this link:  
+          <a href="https://surajkumarsatya.com" style="color:#7B40FF; text-decoration:none;">
+            https://surajkumarsatya.com
+          </a>
+        </p>
+
+        <p>
+          Warm regards,<br />
+          <strong>Suraj Kumar Satya</strong><br />
+          <span style="color: #666; font-size: 14px;">Frontend Developer</span>
+        </p>
+
+    </div>
+  `,
+    });
 
     return NextResponse.json({ success: true });
   } catch (error) {

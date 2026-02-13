@@ -109,7 +109,7 @@ export async function POST(req: Request) {
             style="
               display:inline-block;
               padding:10px 16px;
-              margin: 4px 6px 4px 0px;
+              
               background:#0A66C2;
               color:#ffffff;
               text-decoration:none;
@@ -125,7 +125,7 @@ export async function POST(req: Request) {
             style="
               display:inline-block;
               padding:10px 16px;
-              margin:4px 6px;
+              
               background:#111;
               color:#ffffff;
               text-decoration:none;
@@ -141,7 +141,7 @@ export async function POST(req: Request) {
             style="
               display:inline-block;
               padding:10px 16px;
-              margin: 4px 6px 4px 0px;
+              
               background:#25D366;
               color:#ffffff;
               text-decoration:none;

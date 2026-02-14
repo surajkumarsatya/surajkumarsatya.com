@@ -31,7 +31,7 @@
     "status": "",
     "period": "February 2024 - March 2025",
     "location": "Ghitorini, India (On-Site)",
-    "technologies": ["Manual Testing", "Figma"],
+    "technologies": ["Figma"],
     "description": [
       "Orchestrated the Quality Assurance process for 4 diverse web applications, effectively balancing rigorous testing for 2 internal proprietary tools and 2 high-priority client-facing projects.",
       "Executed exhaustive compatibility testing across a full spectrum of environments, including macOS/Windows (Chrome, Safari, Edge) and iOS/Android mobile browsers to ensure a seamless experience.",
@@ -52,7 +52,7 @@
     "status": "",
     "period": "March 2023 - April 2023",
     "location": "Chennai, India (Remote)",
-    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App"],
+    "technologies": ["Figma"],
     "description": [
       "Contributed to the quality assurance of Setmore, a global scheduling mobile application, during a rigorous 2-month internship.",
       "Executed comprehensive test suites under senior mentorship to ensure all development tasks met strict production-level quality criteria.",
@@ -90,7 +90,7 @@
     "status": "",
     "period": "January 2022 - October 2022",
     "location": "New Delhi, India (Remote)",
-    "technologies": ["Manual Testing", "Figma", "Web App", "Mobile App", "Java", "Selenium"],
+    "technologies": ["Figma", "Selenium"],
     "description": [
       "Spearheaded the manual testing phase for a proprietary internal web application, ensuring the stability of core business tools.",
       "Developed highly effective and efficient Test Scenarios and Test Cases designed to maximize coverage and identify edge-case defects.",

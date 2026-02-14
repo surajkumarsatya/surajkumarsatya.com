@@ -18,13 +18,13 @@ interface AboutData {
   bio: string;
   skills: Skill[];
 }
-
+// dark:bg-yellow-400
 const About = ({ data }: { data: AboutData }) => {
   return (
     <section className="flex flex-col md:flex-row gap-8 items-start max-w-4xl">
       {/* Pixel Avatar */}
       <div className="shrink-0">
-        <div className="size-48 md:size-56 rounded-xl overflow-hidden bg-blue-300 dark:bg-yellow-400 shadow-sm border border-gray-100 dark:border-white/10">
+        <div className="size-48 md:size-56 rounded-xl overflow-hidden bg-blue-300  shadow-sm border border-gray-100 dark:border-white/10">
           <img 
             src={data.avatar} 
             alt={data.name} 

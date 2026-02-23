@@ -203,7 +203,7 @@ export function Intro() {
         className="mt-8 flex gap-2 container mx-auto max-w-3xl px-4"
         style={{ opacity: 1, transform: "none" }}
       >
-        <TooltipProvider>
+        {/* <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
               <a
@@ -227,7 +227,7 @@ export function Intro() {
               <p>Follow on X</p>
             </TooltipContent>
           </Tooltip>
-        </TooltipProvider>
+        </TooltipProvider> */}
 
         <TooltipProvider>
           <Tooltip>
